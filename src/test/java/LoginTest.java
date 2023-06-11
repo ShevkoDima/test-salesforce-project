@@ -22,7 +22,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
-    @Description("123")
+    @Description("Create and edit an account. Verify changes")
     public void createAndModifyNewAccount(){
         String newAccountName = "testAccountName";
         String phoneNumber = "1234567890";

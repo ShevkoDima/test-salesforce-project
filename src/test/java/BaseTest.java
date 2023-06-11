@@ -17,10 +17,10 @@ public class BaseTest {
         loginPage = new LoginPage();
     }
 
-//    @AfterClass(alwaysRun = true)
-//    public void quit() {
-//        if (driver != null) {
-//            driver.quit();
-//        }
-//    }
+    @AfterClass(alwaysRun = true)
+    public void quit() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
 }
